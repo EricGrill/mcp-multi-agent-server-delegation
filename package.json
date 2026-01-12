@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "mcp-delegation-server": "./dist/index.js"
+  },
   "directories": {
     "doc": "docs"
   },

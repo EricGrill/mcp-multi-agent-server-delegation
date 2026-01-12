@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { DelegationServer } from './server.js';
 
 const CALLBACK_PORT = parseInt(process.env.CALLBACK_PORT || '8765', 10);
